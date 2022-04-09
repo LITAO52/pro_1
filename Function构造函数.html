@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ch-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //定义格式为var MyFunction=new Function('a','b','c')最后一个参数是函数主体
+        var MyFunction=new Function('a','b',"return a*b");
+        document.write('3*4的结果是：'+MyFunction(3,4));
+    </script>
+</head>
+<body>
+</body>
+</html>
